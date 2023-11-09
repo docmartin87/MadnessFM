@@ -1,0 +1,367 @@
+/* CREDITS - All my code relied heavily on what I learned from the Resume project, Whiskey page, and Running page from the modules studied so far */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*--- Header ---*/
+
+header{
+    margin: 0;
+}
+
+.col-md-4{
+    padding: 0;
+}
+
+.bg-color-heading{
+    background-color: #d6d6d6;
+}
+
+.logo{
+    background: url("../images/deuces wild logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.btn{
+    display: block;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.btn-nav{
+    background-color: #f54519;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.btn-nav i{
+    display: block;
+    padding-top: 5px;
+    font-size: 26px;
+}
+
+.btn-nav span{
+    display: block;
+    padding-top: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.hvr-sweep-to-bottom:before{
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+/*--- /header ---*/
+
+
+
+
+/*--- Section ---*/
+
+.section{
+    padding: 15px 0;
+    color: #d6d6d6;
+    background-color: #111111;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 30px 0;
+    text-decoration: underline;
+}
+
+/*--- --- index.html Section --- ---*/
+
+.index-section-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.section-heading-red{
+    text-align: center;
+    padding: 45px 0 15px 0;
+    text-decoration: underline;
+    color: #f54519;
+}
+
+.index-section-reviews{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-style: italic;
+    float: left;
+}
+
+.video-wrapper {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.video {
+   width: 100%;
+    height: 80vh;
+}
+
+/*--- --- / index.html Section --- ---*/
+
+/*--- --- gigs.html Section --- ---*/
+
+.gigs-section-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gigs-month{
+    text-align: center;
+    padding: 30px 0;
+    color: #f54519;
+    float: right;
+}
+
+.timeline-item{
+    padding: 64px 32px 0px 32px;
+    position: relative;
+    border-left: 1px solid;
+    float: left;
+}
+
+.timeline-item h4{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before{
+    content: attr(data-date);
+    position: absolute;
+    left: 32px;
+    top: 32px;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after{
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: 42px;
+    position: absolute;
+    left: -7px;
+    border-radius: 50%;
+    content: '';
+    background: #f54519;
+}
+/*--- --- / gigs.html Section --- ---*/
+
+/*--- --- merch.html Section --- ---*/
+
+.merch-section-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.merch-container{
+    font-size: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+#shop li{
+    font-size: 14px;
+    padding: 0;
+}
+
+.merch-records{
+    background-color: #f54519;
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.merch-clothes{
+    background-color: #d6d6d6;
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.merch-memorabilia{
+    background-color: #f54519;
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.merch-item a{
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+}
+
+.merch-item a i{
+    padding-top: 22px;
+    display: block;
+    color: #111111;
+    font-size: 36px;
+}
+
+.merch-item span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/*--- --- / merch.html Section --- ---*/
+
+
+/*--- --- band.html Section --- ---*/
+.band-members{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.band-members .row{
+    border: #d6d6d6 solid 3px;
+    margin: 15px 0;
+}
+
+.band-details li{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #d6d6d6;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.band-details li h3{
+    padding-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.band-1-pic{
+    background: url("../images/Leonardo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.band-2-pic{
+    background: url("../images/Raphael.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.band-3-pic{
+    background: url("../images/Donatello.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.band-4-pic{
+    background: url("../images/Michelangelo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*--- --- /band.html Section --- ---*/
+
+/*--- --- contact.html Section --- ---*/
+.form-group{
+    padding-bottom: 25px;
+}
+
+.form-style{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*--- --- / contact.html Section --- ---*/
+/*--- / section ---*/
+
+
+
+
+/*--- Footer ---*/
+
+.bg-color-footer{
+    background-color: #d6d6d6;
+}
+
+.col h5{
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.social-links{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 10%;
+    font-size: 18px;
+    line-height: 9px;
+    color: #111111;
+    background: #f54519;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+/*--- /footer ---*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .video-wrapper {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .video{
+        height: 60vh;
+    }
+} 
