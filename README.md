@@ -1,31 +1,31 @@
-# Deuces Wild (Band Page)
+# MadnessFM
 
-This is website for Deuces Wild’s fans and people who are not yet fans to go to if they want to see where the band are playing over the next few months, if they want buy band merchandise, if they want to learn more about the band and its members and if they want to book the band.
+This is a website for the MadnessFM Online Radio Station, so people can go to this and listen to our feed.
 
-It has clear and concise pages and information with the intention of increasing revenue for the band by highlighting who they are and what they offer.
+It has clear and concise pages and information with the intention of increasing revenue for the station by highlighting who we are and what we offer.
 
 It is designed to be responsible and accessible on a range of devices.
 
 
 ## UX
 
-The site's users are fans and potential fans who wish to learn more about the band's history and the band members, and possibly book them for shows.
+The site's users are listeners and potential listeners who wish to learn more about the station's history and the station members.
 
-The sites intention from the band’s perspective is to sell more of their merchandise, get more gigs, and also increase their fan base by highlighting their gig schedule.
+The sites intention from the station’s perspective is to broadcast to the listener, sell advertisin space, and also increase the listenership.
 
-It’s a very simple UX idea having a band description and reviews on the home page and then having separate pages for the main pieces of information that someone who is visiting the site would need.
+It’s a very simple UX idea having a station feed, description and ad space on the home page and then having separate pages for the main pieces of information that someone who is visiting the site would need.
 
 Some user stories I thought of before designing my site;
 
-* As a fan who is interested in seeing the band at their next gig, I can go to the website and easily find that information on the Gigs page.
-* As a fan who is interested in booking the band for a gig, I can go to the website and easily find the information on the Home page and even contact the band directly on the Contact page.
-* As a person who might be just looking at different bands to play at a party that they are organising, I can easily see from the Home page the description of the band and even see a video of the band in action.
-* As a person who wants to buy merchandise for the band, I can go to the website and easily find where to buy band merchandise on the Merch page.
+* As a listener who is interested in hearing the station, I can go to the website and easily listen.
+* As a listener who is interested in finding information about the station, I can go to the website and easily find the information on the Home page and even contact the station directly on the Contact page.
+* As a person who might be just looking at different stations to listen to, I can easily see from the Home page the description of the station.
+* As a person who wants to buy merchandise from the station, I can go to the website and easily find where to buy station merchandise on the Merch page.
 
 ### Design
 
 * Colour Scheme
-    * The colour scheme is 3 colours, black, grey and red, to match the colours used in the band’s logo
+    * The colour scheme is 3 colours, black, grey and yellow, to match the colours used in the station’s logo
 * Typography
     * The Roboto Font is the font used on the site for Headings with the Exo for descriptions and blocks of text, both with Sans Serif as the back up font in case there is an issue with Google Fonts. I like the combination of both fonts and I think they are easy to read on both a desktop and a mobile screen.
 * Imagery
@@ -36,29 +36,29 @@ Some user stories I thought of before designing my site;
 
 ## Features 
 
-Each of the 5 pages has a universal header for the navigation of the site. It is made up of 3 columns. The middle column is the bands logo and links back to the home page. The side columns have 2 buttons in each and link to the other pages on the site.
+Each of the 5 pages has a universal header for the navigation of the site. It is made up of 3 columns. The middle column is the stations logo and links back to the home page. The side columns have 2 buttons in each and link to the other pages on the site.
 
-Each of the 5 pages has a universal footer that leads to the band’s social media pages.
+Each of the 5 pages has a universal footer that leads to the station’s social media pages.
 
-The Home page (index.html) is used to describe what the band do, has 2 customer reviews, and gives contact details on how to book them for a gig. I embeded a video from Youtube of the band. 
+The Home page (index.html) is used to describe what the station do, has 2 customer reviews, and gives contact details on how to book them for a gig. I embeded a video from Youtube of the station. 
 
 The Gigs page is a simple design of splitting the section into 2 columns and using a heading of the Month/Year on the left of the page and a list of Dates and Venues then down the right hand side of the page.
 
-The Merch page took a bit of thinking on my part as the band itself doesn’t actually sell merchandise so I went and looked at The Killers website for inspiration which just had a list of links to the sites that sold their merchandise so I used the same idea but had three separate links. Records linked to HMV, Clothes linked to Pennys, and Memorabilia linked to a memorabilia site.
+The Merch page took a bit of thinking on my part as the station itself doesn’t actually sell merchandise so I went and looked at The Killers website for inspiration which just had a list of links to the sites that sold their merchandise so I used the same idea but had three separate links. Records linked to HMV, Clothes linked to Pennys, and Memorabilia linked to a memorabilia site.
 
-The Band page is a simple design also of a 4 rows, each split into 2 columns, one for a photo and another for a quick name, instrument, and description of each member.
+The station page is a simple design also of a 4 rows, each split into 2 columns, one for a photo and another for a quick name, instrument, and description of each member.
 
 The Contact page is a form consisting of a name, email and message text input and a button to send the message.
 
 ### Existing Features
 
 * Header (on each page) – allows users on each page to navigate the website, by having them select buttons to go to each page on the site.
-* Footer (on each page) – allows users on each page to navigate to the bands social media sites which will open on a separate tab.
-* Home page (index.html) – allows the users to see the band in action by clicking an embedded video of the band from Youtube.
-* Merch page (merch.html) – allows the users to be redirected to sites which open on new tabs where the user can buy band merchandise.
-* The Gigs page (gigs.html) – allows the users to see when and where the band are playing in the upcoming months.
-* The Band page (band.html) – allows the users to get to know the band members.
-* The Contact page (contact.html) – allows the users to contact the band through use of a form.
+* Footer (on each page) – allows users on each page to navigate to the stations social media sites which will open on a separate tab.
+* Home page (index.html) – allows the users to see the station in action by clicking an embedded video of the station from Youtube.
+* Merch page (merch.html) – allows the users to be redirected to sites which open on new tabs where the user can buy station merchandise.
+* The Gigs page (gigs.html) – allows the users to see when and where the station are playing in the upcoming months.
+* The station page (station.html) – allows the users to get to know the station members.
+* The Contact page (contact.html) – allows the users to contact the station through use of a form.
 
 ### Features Left to Implement
 
@@ -98,12 +98,12 @@ I used the W3C Markup Validator and W3C CSS Validator to validate my project mak
 * [W3C Markup Validator](https://jigsaw.w3.org/css-validator/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-I used Google Chrome and Google Developer Tools for mobile devices to work through and test the page using real world events as the parameters, eg booking the band, contacting the band, checking gig dates, and trying to buy band merchandise.
+I used Google Chrome and Google Developer Tools for mobile devices to work through and test the page using real world events as the parameters, eg booking the station, contacting the station, checking gig dates, and trying to buy station merchandise.
 
 1. Header/Navigation; from the home page:
     * Go to gigs page – go back to Home page
     * Go to Merch page – go back to home page
-    * Go to Band page – go back to Home page
+    * Go to station page – go back to Home page
     * Go to Contact page – go back to Home page
 
 * Also tested on mobile device
@@ -121,7 +121,7 @@ I used Google Chrome and Google Developer Tools for mobile devices to work throu
 3.	Header/Navigation; from the home page:
     * Go to gigs page – go back to Home page
     * Go to Merch page – go back to home page
-    * Go to Band page – go back to Home page
+    * Go to station page – go back to Home page
     * Go to Contact page – go back to Home page
 
 4.	Home Page; image/video link:
@@ -141,8 +141,8 @@ I used Google Chrome and Google Developer Tools for mobile devices to work throu
     * Clothes link – opens link in a new tab
     * Memorabilia link – opens link in a new tab 
 
-8.	Band page:
-    * Band page opens and looks as intended on desktop and mobile device
+8.	station page:
+    * station page opens and looks as intended on desktop and mobile device
 
 9.	Contact page:
     * Contact page opens and looks as intended on desktop and mobile device
@@ -180,11 +180,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ### Content
 * The text for the Home page was taken from the [Deuces Wild](https://www.facebook.com/deuceswildlive/) Facebook page
-* The text for the Band page and the band members information was taken from the [Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles) Wikipedia page
+* The text for the station page and the station members information was taken from the [Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles) Wikipedia page
 
 ### Media
 * The video and logo on the Home page was taken from the [Deuces Wild](https://www.facebook.com/deuceswildlive/) Facebook page
-* The pictures for the Band page for the band members was taken from the [Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles) Wikipedia page
+* The pictures for the station page for the station members was taken from the [Teenage Mutant Ninja Turtles](https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles) Wikipedia page
 
 ### Acknowledgements
 * My mentor for continuous feedback on the project.
