@@ -11,7 +11,7 @@ It is designed to be responsible and accessible on a range of devices.
 
 The site's users are listeners and potential listeners who wish to learn more about the station's history and the station members.
 
-The sites intention from the station’s perspective is to broadcast to the listener, sell advertisin space, and also increase the listenership.
+The sites intention from the station’s perspective is to broadcast to the listener, sell advertising space, and also increase the listenership.
 
 It’s a very simple UX idea having a station feed, description and ad space on the home page and then having separate pages for the main pieces of information that someone who is visiting the site would need.
 
